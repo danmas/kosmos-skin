@@ -1,0 +1,50 @@
+
+export interface AppTheme {
+  id: string;
+  name: string;
+  icon: string;
+  colors: {
+    // Backgrounds
+    bgMain: string;
+    bgSecondary: string;
+    bgCard: string;
+    bgPanel: string;
+    bgHeader: string;
+    bgInput: string;
+    bgTerm: string;
+    bgHover: string;
+    bgActive: string;
+    bgTooltip: string;
+    bgOverlay: string;
+    bgModal: string;
+    // Terminal
+    termBg: string;
+    termFg: string;
+    // Borders
+    borderMain: string;
+    borderLight: string;
+    borderFocus: string;
+    // Text
+    textMain: string;
+    textMuted: string;
+    textDim: string;
+    textInverted: string;
+    // Accents
+    primary: string;
+    primaryHover: string;
+    primaryDim: string;
+    // Status
+    success: string;
+    warning: string;
+    error: string;
+    info: string;
+    // Logs
+    logAi: string;
+    logStdin: string;
+    logStdout: string;
+    logStderr: string;
+    // Misc
+    scrollbarThumb: string;
+    tabActiveBorder: string;
+  };
+}

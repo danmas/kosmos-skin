@@ -1,0 +1,5 @@
+{
+  "name": "SkinGen UI Designer",
+  "description": "An AI-powered theme designer for dashboard and terminal applications. Generate, preview, and refine visual skins using Gemini AI.",
+  "requestFramePermissions": []
+}
